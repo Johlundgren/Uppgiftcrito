@@ -11,6 +11,7 @@ import Testimonial from '../components/Testimonial'
 import Articleandnews from '../components/Articleandnews'
 import Newsletter from '../components/Newsletter'
 import Footerlinks from '../components/Footerlinks'
+import Footer from '../components/Footer'
 
 
 
@@ -29,6 +30,7 @@ const Home = () => {
         <Articleandnews />
         <Newsletter />
         <Footerlinks />
+        <Footer />
 
     </>
   )
