@@ -4,7 +4,6 @@ import Showcase from '../components/Showcase'
 import BusinessLogo from '../components/BusinessLogo'
 import Features from '../components/Features'
 import Companyinfo from '../components/Companyinfo'
-import Companyinfotwo from '../components/Companyinfotwo'
 
 const Home = () => {
   return (
@@ -14,7 +13,6 @@ const Home = () => {
         <BusinessLogo />
         <Features />
         <Companyinfo />
-        <Companyinfotwo />
 
     </>
   )
