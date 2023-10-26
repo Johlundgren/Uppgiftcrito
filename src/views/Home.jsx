@@ -12,6 +12,7 @@ import Articleandnews from '../components/Articleandnews'
 import Newsletter from '../components/Newsletter'
 import Footerlinks from '../components/Footerlinks'
 import Footer from '../components/Footer'
+import Companyinfo from '../components/Companyinfo'
 
 
 
@@ -22,6 +23,7 @@ const Home = () => {
         <Showcase />
         <BusinessLogo />
         <Features />
+        <Companyinfo />
         <Services />
         <Whychooseus />
         <Projectandcase />
