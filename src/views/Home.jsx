@@ -4,6 +4,7 @@ import Showcase from '../components/Showcase'
 import BusinessLogo from '../components/BusinessLogo'
 import Features from '../components/Features'
 import Services from '../components/Services'
+import Whychooseus from '../components/Whychooseus'
 
 
 
@@ -14,7 +15,8 @@ const Home = () => {
         <Showcase />
         <BusinessLogo />
         <Features />
-        <Services /> 
+        <Services />
+        <Whychooseus /> 
 
     </>
   )

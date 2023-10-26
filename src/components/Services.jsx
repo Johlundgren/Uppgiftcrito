@@ -7,7 +7,7 @@ const Services = () => {
         <section className="service-rubrik">
           <div className="section-title">
             <p>Our Services</p>
-            <h2>We Provide The Best Service For Consulting</h2>
+            <h2>We Provide The Best <br></br> Service For Consulting</h2>
           </div>
         </section>
         <section className="service-headlines">
