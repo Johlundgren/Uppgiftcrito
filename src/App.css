@@ -9,6 +9,7 @@ html, body {
 }
 
 .wrapper-grid {
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
@@ -385,7 +386,6 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
 .main-container .companyinfo-section .company-section img {
   display: block;
   margin-top: 120px;
-  margin-left: 360px;
 }
 .main-container .companyinfo-section .company-section .companychild-1 {
   position: absolute;
@@ -393,7 +393,7 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   height: 180px;
   width: 370px;
   z-index: 1;
-  left: 300px;
+  left: -60px;
   bottom: 40px;
   display: flex;
   flex-direction: column;
@@ -435,6 +435,9 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   align-items: center;
   justify-content: center;
   margin-right: 450px;
+}
+.main-container .secondcontainer .about-company .btn-company .btn-black {
+  width: 200px;
 }
 .main-container .secondcontainer .about-company .btn-company .btn-transparent {
   margin-left: 40px;
