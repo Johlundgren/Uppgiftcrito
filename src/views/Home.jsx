@@ -5,6 +5,7 @@ import BusinessLogo from '../components/BusinessLogo'
 import Features from '../components/Features'
 import Services from '../components/Services'
 import Whychooseus from '../components/Whychooseus'
+import Projectandcase from '../components/Projectandcase'
 
 
 
@@ -16,7 +17,8 @@ const Home = () => {
         <BusinessLogo />
         <Features />
         <Services />
-        <Whychooseus /> 
+        <Whychooseus />
+        <Projectandcase /> 
 
     </>
   )
