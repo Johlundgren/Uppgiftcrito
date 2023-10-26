@@ -6,6 +6,7 @@ import Features from '../components/Features'
 import Services from '../components/Services'
 import Whychooseus from '../components/Whychooseus'
 import Projectandcase from '../components/Projectandcase'
+import Meetourteam from '../components/Meetourteam'
 
 
 
@@ -18,7 +19,8 @@ const Home = () => {
         <Features />
         <Services />
         <Whychooseus />
-        <Projectandcase /> 
+        <Projectandcase />
+        <Meetourteam /> 
 
     </>
   )
