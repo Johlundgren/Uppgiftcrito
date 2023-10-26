@@ -9,6 +9,7 @@ import Projectandcase from '../components/Projectandcase'
 import Meetourteam from '../components/Meetourteam'
 import Testimonial from '../components/Testimonial'
 import Articleandnews from '../components/Articleandnews'
+import Newsletter from '../components/Newsletter'
 
 
 
@@ -25,6 +26,7 @@ const Home = () => {
         <Meetourteam />
         <Testimonial />
         <Articleandnews />
+        <Newsletter />
 
     </>
   )
