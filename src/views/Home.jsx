@@ -10,6 +10,7 @@ import Meetourteam from '../components/Meetourteam'
 import Testimonial from '../components/Testimonial'
 import Articleandnews from '../components/Articleandnews'
 import Newsletter from '../components/Newsletter'
+import Footerlinks from '../components/Footerlinks'
 
 
 
@@ -27,6 +28,7 @@ const Home = () => {
         <Testimonial />
         <Articleandnews />
         <Newsletter />
+        <Footerlinks />
 
     </>
   )
