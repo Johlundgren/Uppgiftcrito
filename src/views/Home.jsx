@@ -7,6 +7,7 @@ import Services from '../components/Services'
 import Whychooseus from '../components/Whychooseus'
 import Projectandcase from '../components/Projectandcase'
 import Meetourteam from '../components/Meetourteam'
+import Testimonial from '../components/Testimonial'
 
 
 
@@ -20,7 +21,8 @@ const Home = () => {
         <Services />
         <Whychooseus />
         <Projectandcase />
-        <Meetourteam /> 
+        <Meetourteam />
+        <Testimonial />
 
     </>
   )
