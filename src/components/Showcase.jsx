@@ -10,8 +10,10 @@ const Showcase = () => {
         <div className="content">
             <h1>We Provide The Best Business Solutions</h1>
             <p>Establish your vision and value proposition and turn them into testable prototypes.</p>
+            <div className="content-buttons">
             <a className="btn-yellow" href="consulting.html">Get Consulting<i className="fa-regular fa-arrow-up-right"></i></a>
             <a className="btn-transparent" href="services.html">Learn more<i className="fa-regular fa-arrow-up-right"></i></a>
+            </div>
         </div>
         <img src={imagetwo} alt="man with a tablet" />
     </div>
