@@ -3,6 +3,7 @@ import Header from '@components/Header'
 import Letsconnect from '../components/Letsconnect'
 import Companyinformation from '../components/Companyinformation'
 import Messageform from '../components/Messageform'
+import Mappicture from '../components/Mappicture'
 
 const Contact = () => {
   return (
@@ -11,6 +12,7 @@ const Contact = () => {
     <Letsconnect />
     <Companyinformation />
     <Messageform />
+    <Mappicture />
     </>  
   )
 }
