@@ -1,0 +1,39 @@
+.background-box {
+    background-color: #F0EFE9;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+    .background-lines-left {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    .container {
+        .menu {
+            text-align: center;
+            
+            a {
+                text-decoration: none;
+                color: #333;
+                margin: 4px;
+                transition: color 0.3s;
+                &:hover {
+                    color: #a288c1;
+                }
+            }
+        }
+
+        h4 {
+            text-align: center;
+            color: #191919;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 56px;
+            font-weight: 700;
+        }
+    }
+}

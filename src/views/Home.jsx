@@ -39,5 +39,3 @@ const Home = () => {
 }
 
 export default Home
-
-//     import Companyinfo from '../components/Companyinfo'    <Companyinfo />
