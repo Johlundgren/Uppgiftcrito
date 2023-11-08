@@ -5,6 +5,15 @@
     justify-content: center;
     text-align: center;
 
+    .success-message {
+        background-color: rgb(255, 255, 255);
+        height: 120px;
+        width: 260px;
+        margin-left: 500px;
+        font-size: 30px;
+        margin-bottom: 200px;
+    }
+
     form {
         background-color: #F0EFE9;
         height: 760px;
