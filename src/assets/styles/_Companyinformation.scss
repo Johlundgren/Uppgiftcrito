@@ -1,0 +1,62 @@
+.company-information {
+    height: 400px;
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        position: relative;
+    }
+
+    .box {
+        border: 1px solid rgb(210, 210, 210);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin-top: 120px;
+        position: relative;
+        align-items: center;
+        height: 200px;
+        transition: transform 0.2s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        .boxtest {
+            margin-top: 40px;
+
+            h3 {
+                font-size: 22px;
+                font-family: 'dm sans', sans-serif;
+                font-weight: 700;
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 300;
+                margin-top: 5px;
+            }
+        }
+
+        .circle-mark {
+            background-color: black;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 40px;
+            left: 60px;
+
+            i {
+                font-size: 20px;
+            }
+        }
+    }
+}
