@@ -1,4 +1,5 @@
 import React from 'react'
+import '@styles/_Newsletter.scss'
 import bglineright from '@images/bglineright.svg'
 
 const Newsletter = () => {

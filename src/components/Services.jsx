@@ -1,4 +1,5 @@
 import React from 'react';
+import '@styles/_Services.scss'
 
 const Services = () => {
   return (

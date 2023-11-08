@@ -1,4 +1,5 @@
 import React from 'react';
+import '@styles/_Meetourteam.scss'
 import Team01 from '@images/Team01.png';
 import Team02 from '@images/Team02.png';
 import Team03 from '@images/Team03.png';

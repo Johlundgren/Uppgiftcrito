@@ -1,0 +1,50 @@
+.articlenews-section {
+    .container {
+        .articlenews-rubrik {
+            margin-bottom: -60px;
+            position: relative;
+            .section-title {
+                .btn-transparent {
+                    font-weight: 300;
+                    position: absolute;
+                    right: 0;
+                    top: 150px;
+                }
+            }
+        }
+        .articlenews-showcase {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            .articleimages {
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-family: 'Inter', sans-serif;
+                    color: gray;
+                }
+            }
+        }
+        .center-content {
+            .smallcircles {
+                margin-right: 10px;
+                padding-top: 50px;
+                padding-bottom: 70px;
+                
+                a {
+                    text-decoration: none;
+                    color: black;
+
+                    &:hover {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

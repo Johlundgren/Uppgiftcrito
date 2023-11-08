@@ -1,4 +1,5 @@
 import React from 'react'
+import '@styles/_BusinessLogo.scss'
 import paperz from '@images/paperz.svg'
 import dorfuz from '@images/dorfus.svg'
 import martino from '@images/martino.svg'

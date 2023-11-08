@@ -1,4 +1,5 @@
 import React from 'react';
+import '@styles/_Companyinfo.scss'
 import companywoman from '@images/companywoman.png';
 
 const Companyinfo = () => {

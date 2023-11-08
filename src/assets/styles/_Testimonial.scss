@@ -1,0 +1,23 @@
+.testimonial-section {
+    background-color: #F9D783;
+    height: 1100px;
+    .container {
+        background-color: white;
+        .testimonial-rubrik {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .client-reviews {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .center-content {
+            .btn-black {
+                margin: 120px;
+
+            }
+        }
+    }
+}

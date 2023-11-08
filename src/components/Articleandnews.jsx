@@ -1,4 +1,5 @@
 import React from 'react'
+import '@styles/_Articleandnews.scss'
 import mar from '@images/mar25.png';
 import mar17 from '@images/mar17.png';
 import mar13 from '@images/mar13.png';

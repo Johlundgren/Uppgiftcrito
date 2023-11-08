@@ -3,6 +3,7 @@ import newspaper from '@images/newspaper.png'
 import smartwatch from '@images/smartwatch.png'
 import penandpaper from '@images/penandpaper.png'
 import pctablet from '@images/pctablet.png'
+import '@styles/_Projectandcase.scss'
 
 const Projectandcase = () => {
   return (

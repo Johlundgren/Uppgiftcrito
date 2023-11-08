@@ -1,5 +1,6 @@
 import React from 'react'
 import image from '@images/twowomen.png'
+import '@styles/_Whychooseus.scss'
 
 const Whychooseus = () => {
   return (

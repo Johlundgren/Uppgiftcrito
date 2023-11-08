@@ -1,0 +1,42 @@
+.meet-section {
+    background-color: #F9D783;
+    .container {
+        .meet-rubrik {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .section-title {
+                a {
+                    position: absolute;
+                    font-size: 16px;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 300;
+                    top: 150px;
+                    right: 0;
+                }
+            }
+        }
+        .meet-headshots {
+            display: flex;
+            gap: 30px;
+        }
+            .center-content {
+                .smallcircles {
+                    margin-right: 10px;
+                    padding-top: 50px;
+                    padding-bottom: 70px;
+                    
+                    a {
+                        text-decoration: none;
+                        color: black;
+
+                        &:hover {
+                            color: white;
+                        }
+                    }
+                }
+            }
+            
+    }
+}

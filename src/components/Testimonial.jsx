@@ -1,4 +1,5 @@
 import React from 'react'
+import '@styles/_Testimonial.scss'
 import client1 from '@images/client1.png'
 import client2 from '@images/client2.png'
 import client3 from '@images/client3.png'

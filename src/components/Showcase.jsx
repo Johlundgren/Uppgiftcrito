@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/styles/_Showcase.scss'
+import '@styles/_Showcase.scss'
 import imageone from '@images/bg-lines-left.svg'
 import imagetwo from '@images/showcase-man.svg'
 const Showcase = () => {

@@ -1,4 +1,5 @@
 import React from 'react'
+import '@styles/_Footerlinks.scss'
 import critologo from '@images/critologofooter.svg'
 import bglinesright from '@images/bglinesright.svg'
 
