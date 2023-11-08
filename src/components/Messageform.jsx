@@ -44,7 +44,7 @@ const Messageform = () => {
         console.log('Message Success!')
         setMessageSent(true)
       } else {
-        console.log('Oops, something went wrong with the message')
+        console.log('The provided data is invalid')
       }
     } catch (error) {
       console.error('Something went wrong', error)
