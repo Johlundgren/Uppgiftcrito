@@ -8,7 +8,7 @@ const News = () => {
   return (
     <>
      <Header />
-     <NewsHeader />
+     <NewsHeader url1={"/"} url2={"/Contact"} description1="Home" description2="Contact" title="News & Articles" />
      <Footerlinks />
      <Footer />
     </>
