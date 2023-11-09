@@ -15,7 +15,6 @@ import Footer from '../components/Footer'
 import Companyinfo from '../components/Companyinfo'
 
 
-
 const Home = () => {
   return (
     <>

@@ -4,17 +4,15 @@ import Team01 from '@images/Team01.png';
 import Team02 from '@images/Team02.png';
 import Team03 from '@images/Team03.png';
 import Team04 from '@images/Team04.png';
+import SectionTitle from './SectionTitle';
 
 const Meetourteam = () => {
   return (
     <div className="meet-section">
       <div className="container">
         <section className="meet-rubrik">
-          <div className="section-title">
-            <p>Meet Our Team</p>
-            <h2>Experience Team Members</h2>
+          <SectionTitle title="Meet our Team" description="Experience Team Members" />
             <a className="btn-transparent" href="team.html">Browse Team<i className="fa-solid fa-arrow-up-right"></i></a>
-          </div>
         </section>
         <section className="meet-headshots">
           <div className="headshots">

@@ -3,16 +3,14 @@ import '@styles/_Testimonial.scss'
 import client1 from '@images/client1.png'
 import client2 from '@images/client2.png'
 import client3 from '@images/client3.png'
+import SectionTitle from './SectionTitle'
 
 const Testimonial = () => {
   return (
     <div className="testimonial-section">
     <div className="container">
         <section className="testimonial-rubrik">
-            <div className="section-title">
-                <p>Testimonial</p>
-                <h2>What Our Client Says</h2> 
-            </div>
+            <SectionTitle title="Testimonial" description="What Our Client Says" />
         </section>
         <section className="client-reviews">
             <img src={client1} alt="Client review 1" />

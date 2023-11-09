@@ -4,16 +4,15 @@ import smartwatch from '@images/smartwatch.png'
 import penandpaper from '@images/penandpaper.png'
 import pctablet from '@images/pctablet.png'
 import '@styles/_Projectandcase.scss'
+import SectionTitle from './SectionTitle'
 
 const Projectandcase = () => {
+
   return (
     <div>
             <section className="project-and-case">
         <div className="container">
-            <div className="section-title">
-                <p>Project & Case Studies</p>
-                <h2>Let's Looks Our Global Projects</h2>
-            </div>
+            <SectionTitle title="Project & Case Studies" description="Let's Look At Our Global Projects" />
            <div className="project-and-cases">
             <a className="project" href="#">
                 <img src={newspaper} alt="A mans hand reading business paper" />
@@ -35,7 +34,7 @@ const Projectandcase = () => {
                 <h3>Business Insights is a important piece of your business</h3>
                 <div className="readmore">Read more <i className="fa-regular fa-arrow-up-right"></i></div>
             </a>
-           </div> 
+           </div>
            <div className="center-content">
             <a className="btn-black" href="projects.html">All Recent Projects<i className="fa-regular fa-arrow-up-right"></i></a>
            </div>
