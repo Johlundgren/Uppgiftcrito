@@ -5,6 +5,7 @@ import Team02 from '@images/Team02.png';
 import Team03 from '@images/Team03.png';
 import Team04 from '@images/Team04.png';
 import SectionTitle from './SectionTitle';
+import Smallcircles from './Smallcircles';
 
 const Meetourteam = () => {
   return (
@@ -29,21 +30,11 @@ const Meetourteam = () => {
           </div>
         </section>
         <div className="center-content">
-          <div className="smallcircles">
-            <a href="nextslide.html"><i className="fa-duotone fa-circle-small"></i></a>
-          </div>
-          <div className="smallcircles">
-            <a href="nextslide.html"><i className="fa-sharp fa-solid fa-circle-small"></i></a>
-          </div>
-          <div className="smallcircles">
-            <a href="nextslide.html"><i className="fa-duotone fa-circle-small"></i></a>
-          </div>
-          <div className="smallcircles">
-            <a href="nextslide.html"><i className="fa-duotone fa-circle-small"></i></a>
-          </div>
-          <div className="smallcircles">
-            <a href="nextslide.html"><i className="fa-duotone fa-circle-small"></i></a>
-          </div>
+            <Smallcircles icon="fa-duotone fa-circle-small" />
+            <Smallcircles icon="fa-sharp fa-solid fa-circle-small" />
+            <Smallcircles icon="fa-duotone fa-circle-small" />
+            <Smallcircles icon="fa-duotone fa-circle-small" />
+            <Smallcircles icon="fa-duotone fa-circle-small" />
         </div>
       </div>
     </div>
