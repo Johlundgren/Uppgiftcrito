@@ -34,15 +34,10 @@ const Header = () => {
                 <SocialMediaBox />
                 <div className="menu">
                 <nav>
-              <NavLink to="/" exact="true" activeclassname="active">
-                Home
-              </NavLink>
-              <a href="services.html">Services</a>
-              <a href="news.html">News</a>
-              <NavLink to="/contact" activeclassname="active">
-                Contact
-              </NavLink>
-            </nav>
+                  <NavLink to="/" exact="true" activeclassname="active">Home</NavLink>
+                  <NavLink to="/News" activeclassname="active">News</NavLink>
+                  <NavLink to="/contact" activeclassname="active">Contact</NavLink>
+               </nav>
                     <BtnYellow title="Login " />
                 </div>
             </div>

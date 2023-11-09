@@ -4,7 +4,7 @@ import '@styles/_Mappicture.scss'
 
 const Mappicture = () => {
   return (
-<div className="container map-picture">
+<div className="map-picture">
     <img src={mappicture} alt="Map of Stockholm" />
 </div>
   )
