@@ -1,6 +1,6 @@
 import React from 'react'
 import image from '@images/Logo.svg'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import '@styles/_Header.scss'
 
 const Header = () => {
@@ -36,12 +36,16 @@ const Header = () => {
                     <a href="https://linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
                 </div>
                 <div className="menu">
-                    <nav>
-                        <Link to="/" className="active">Home</Link>
-                        <a href="services.html">Services</a>
-                        <a href="news.html">News</a>
-                        <Link to="/Contact">Contact</Link>
-                    </nav>
+                <nav>
+              <NavLink to="/" exact="true" activeclassname="active">
+                Home
+              </NavLink>
+              <a href="services.html">Services</a>
+              <a href="news.html">News</a>
+              <NavLink to="/contact" activeclassname="active">
+                Contact
+              </NavLink>
+            </nav>
                     <a className="btn-yellow btn-login" href="login.html">Login <i className="fa-regular fa-arrow-up-right"></i></a>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import '@styles/_Services.scss'
+import ServiceBox from './ServiceBox';
 
 const Services = () => {
   return (
@@ -8,55 +9,17 @@ const Services = () => {
         <section className="service-rubrik">
           <div className="section-title">
             <p>Our Services</p>
-            <h2>We Provide The Best <br></br> Service For Consulting</h2>
+            <h2>We Provide The Best <br /> Service For Consulting</h2>
           </div>
         </section>
         <section className="service-headlines">
-          <div className="service">
-            <h3>Business Advice</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Officiis in nam possimus.
-            </p>
-            <a className="btn-black" href="business.html">
-              <i className="fa fa-light fa-arrow-right"></i>
-            </a>
-          </div>
-          <div className="service">
-            <div className="service-yellow">
-              <h3>Startup Business</h3>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Officiis in nam possimus.
-              </p>
-              <a className="btn-transparent" href="startup.html">
-                <i className="fa fa-light fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-          <div className="service">
-            <h3>Financial Advice</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Officiis in nam possimus.
-            </p>
-            <a className="btn-black" href="financialadvice.html">
-              <i className="fa fa-light fa-arrow-right"></i>
-            </a>
-          </div>
-          <div className="service">
-            <h3>Risk Management</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Officiis in nam possimus.
-            </p>
-            <a className="btn-black" href="riskmanagement.html">
-              <i className="fa fa-light fa-arrow-right"></i>
-            </a>
-          </div>
+          <ServiceBox title="Business Advice" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="" />
+          <ServiceBox title="Startup Business" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="" />
+          <ServiceBox title="Financial Advice" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="" />
+          <ServiceBox title="Risk Management" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="" />
         </section>
         <div className="center-content">
-          <a className="btn-transparent" href="services.html">
+          <a className="btn-transparent" href="#">
             Browse Services
             <i className="fa-solid fa-arrow-up-right"></i>
           </a>

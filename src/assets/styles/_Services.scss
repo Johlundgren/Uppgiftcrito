@@ -25,6 +25,12 @@
                 align-items: center;
                 text-align: center;
                 padding: 70px;
+                transition: background-color 0.3s;
+                background-color: #ffffff;
+
+                &:hover {
+                  background-color: #F9D783;
+                }
 
                 &::before {
                     content: '';
@@ -59,52 +65,7 @@
                     font-size: 16px;
                 }
 
-                &:nth-child(1) {
-                    background-color: #ffffff;
-                  }
-          
-                  &:nth-child(2) {
-                    background-color: #F9D783;
-                  }
-          
-                  &:nth-child(3) {
-                    background-color: #ffffff;
-                  }
-          
-                  &:nth-child(4) {
-                    background-color: #ffffff;
-                  }
 
-                .service-yellow {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    text-align: center;
-                    
-                    .btn-transparent {
-                        background-color: white;
-                        padding: 16px;
-                        border-radius: 50%;
-                        position: absolute;
-                        bottom: 40px;
-                        right: 30px;
-                        
-
-                        i {
-                            font-size: 30px;
-                        }
-
-                        &:hover {
-                            background-color: #191919;
-                            border: 1px solid #191919;
-
-                            i {
-                                color: white;
-                                background-color: transparent;
-                            }
-                        }
-                    }
-                }
             }
         }
         .center-content {
