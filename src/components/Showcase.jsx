@@ -2,6 +2,8 @@ import React from 'react'
 import '@styles/_Showcase.scss'
 import imageone from '@images/bg-lines-left.svg'
 import imagetwo from '@images/showcase-man.svg'
+import BtnYellow from './BtnYellow'
+import BtnTrans from './BtnTrans'
 const Showcase = () => {
   return (
     <section className="showcase">
@@ -11,8 +13,8 @@ const Showcase = () => {
             <h1>We Provide The Best Business Solutions</h1>
             <p>Establish your vision and value proposition and turn them into testable prototypes.</p>
             <div className="content-buttons">
-            <a className="btn-yellow" href="consulting.html">Get Consulting<i className="fa-regular fa-arrow-up-right"></i></a>
-            <a className="btn-transparent" href="services.html">Learn more<i className="fa-regular fa-arrow-up-right"></i></a>
+              <BtnYellow title="Get Consulting" />
+              <BtnTrans title="Learn More" icon="fa-regular fa-arrow-up-right" />
             </div>
         </div>
         <img src={imagetwo} alt="man with a tablet" />

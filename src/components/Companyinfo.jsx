@@ -2,6 +2,8 @@ import React from 'react';
 import '@styles/_Companyinfo.scss'
 import companywoman from '@images/companywoman.png';
 import SectionTitle from './SectionTitle';
+import BtnBlack from './BtnBlack';
+import BtnTrans from './BtnTrans';
 
 const Companyinfo = () => {
   return (
@@ -26,8 +28,8 @@ const Companyinfo = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam<br />officiis quas assumenda esse obcaecati? Ex esse error voluptates iure<br />vel totam eos.<br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis esse<br />quasi incidunt adipisci accusantium libero provident voluptate amet.</p>
                 </div>
                 <div className="btn-company">
-                    <a className="btn-black" href="company.html">Learn More<i className="fa-regular fa-arrow-up-right"></i></a>
-                    <a className="btn-transparent" href="services.html"><i className="fa-sharp fa-solid fa-play"></i></a>
+                    <BtnBlack title="Learn More" />
+                    <BtnTrans icon="fa-sharp fa-solid fa-play" />
                     <p>Intro Video</p>
                 </div>
             </section>

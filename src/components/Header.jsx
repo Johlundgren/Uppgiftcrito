@@ -2,6 +2,8 @@ import React from 'react'
 import image from '@images/Logo.svg'
 import { Link, NavLink } from 'react-router-dom';
 import '@styles/_Header.scss'
+import BtnYellow from './BtnYellow';
+import SocialMediaBox from './SocialMediaBox';
 
 const Header = () => {
   return (
@@ -29,12 +31,7 @@ const Header = () => {
                         Sveavägen 31, 111 34 STOCKHOLM
                     </div>
                 </div>
-                <div className="socialmedia-bar">
-                    <a href="https://facebook.com/" target="_blank"><i className="fa-brands fa-facebook"></i></a>
-                    <a href="https://twitter.com/" target="_blank"><i className="fa-brands fa-twitter"></i></a>
-                    <a href="https://instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
-                    <a href="https://linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
-                </div>
+                <SocialMediaBox />
                 <div className="menu">
                 <nav>
               <NavLink to="/" exact="true" activeclassname="active">
@@ -46,7 +43,7 @@ const Header = () => {
                 Contact
               </NavLink>
             </nav>
-                    <a className="btn-yellow btn-login" href="login.html">Login <i className="fa-regular fa-arrow-up-right"></i></a>
+                    <BtnYellow title="Login " />
                 </div>
             </div>
         </header>

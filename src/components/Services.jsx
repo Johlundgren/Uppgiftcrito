@@ -2,6 +2,7 @@ import React from 'react';
 import '@styles/_Services.scss';
 import ServiceBox from './ServiceBox';
 import SectionTitle from './SectionTitle';
+import BtnTrans from './BtnTrans';
 
 const Services = () => {
   return (
@@ -17,10 +18,7 @@ const Services = () => {
           <ServiceBox title="Risk Management" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="" />
         </section>
         <div className="center-content">
-          <a className="btn-transparent" href="#">
-            Browse Services
-            <i className="fa-solid fa-arrow-up-right"></i>
-          </a>
+          <BtnTrans title="Browse Services" icon="fa-solid fa-arrow-up-right" />
         </div>
       </div>
     </div>

@@ -4,6 +4,7 @@ import client1 from '@images/client1.png'
 import client2 from '@images/client2.png'
 import client3 from '@images/client3.png'
 import SectionTitle from './SectionTitle'
+import BtnBlack from './BtnBlack'
 
 const Testimonial = () => {
   return (
@@ -18,7 +19,7 @@ const Testimonial = () => {
             <img src={client3} alt="Client review 3" />
         </section>
         <div className="center-content">
-            <a className="btn-black" href="allreviews.html">All Reviews<i className="fa-solid fa-arrow-up-right"></i></a>
+            <BtnBlack title="All Reviews" />
         </div> 
     </div>
 </div>

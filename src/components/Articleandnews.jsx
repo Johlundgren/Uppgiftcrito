@@ -6,6 +6,7 @@ import mar13 from '@images/mar13.png';
 import SectionTitle from './SectionTitle';
 import ArticleNewsBox from './ArticleNewsBox';
 import Smallcircles from './Smallcircles';
+import BtnTrans from './BtnTrans';
 
 const Articleandnews = () => {
   return (
@@ -13,7 +14,7 @@ const Articleandnews = () => {
     <div className="container">
         <section className="articlenews-rubrik">
             <SectionTitle title="Article & News" description="Get Every Single Articles & News" />
-                <a className="btn-transparent" href="articles.html">Browse Articles<i className="fa-solid fa-arrow-up-right"></i></a>
+            <BtnTrans title="Browse Articles" icon="fa-regular fa-arrow-up-right" />
         </section>
         <section className="articlenews-showcase">
             <div className="articleimages">

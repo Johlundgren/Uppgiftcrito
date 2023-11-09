@@ -1,5 +1,6 @@
 import React from 'react'
 import '@styles/_Footer.scss'
+import SocialMediaBox from './SocialMediaBox'
 
 const Footer = () => {
   return (
@@ -7,12 +8,7 @@ const Footer = () => {
     <div className="footer-section">
         <div className="container">
             <p>&copy; 2023 Crito - Consulting Company Inc. All Rights Reserved.</p>
-            <div className="socialmedia-bar">
-                <a href="https://facebook.com/" target="_blank"><i className="fa-brands fa-facebook"></i></a>
-                <a href="https://twitter.com/" target="_blank"><i className="fa-brands fa-twitter"></i></a>
-                <a href="https://instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
-                <a href="https://linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
-            </div>
+            <SocialMediaBox />
         </div>
     </div>
 </footer>

@@ -2,6 +2,7 @@ import React from 'react'
 import '@styles/_Features.scss'
 import SectionTitle from './SectionTitle'
 import FeatureBox from './FeatureBox'
+import BtnYellow from './BtnYellow'
 
 const Features = () => {
   return (
@@ -10,9 +11,8 @@ const Features = () => {
     <section className="feature-section flex-section">
             <SectionTitle title="Features" description="Our Accounting is trusted by thousand of companies" />
             <div className="center-content">
-                <a className="btn-yellow" href="#">Learn More<i className="fa-regular fa-arrow-up-right"></i></a>
+            <BtnYellow title="Learn More" />
             </div>
-
     </section>
         <section className="feature-section grid-section">
             <FeatureBox icon="fa-light fa-handshake" title="Business Advice" description="Lorem ipsum, dolor sit amet consectetur adipisicing elit"/>

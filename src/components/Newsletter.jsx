@@ -1,6 +1,7 @@
 import React from 'react'
 import '@styles/_Newsletter.scss'
 import bglineright from '@images/bglineright.svg'
+import BtnYellow from './BtnYellow'
 
 const Newsletter = () => {
   return (
@@ -10,7 +11,7 @@ const Newsletter = () => {
         <h2>Get News Updates by Signup</h2>
         <form>
             <input type="text" placeholder="username@domain.com" />
-            <button className="btn-yellow">Subscribe<i className="fa-solid fa-arrow-up-right"></i></button> 
+            <BtnYellow title="Subscribe" />
         </form>
     </div>
 </section>
