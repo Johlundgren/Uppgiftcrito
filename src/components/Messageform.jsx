@@ -60,30 +60,14 @@ const Messageform = () => {
           <form onSubmit={handleSubmit}>
             <h1>Leave us a message<br /> for any information.</h1>
             <div className="input-group">
-              <input
-                type="text"
-                name="name"
-                value={name}
-                placeholder="Name"
-                onChange={handleChange}
-              />
+              <input type="text" name="name" value={name} placeholder="Name" onChange={handleChange} />
             </div>
             <div className="input-group">
               <input
-                type="email"
-                name="email"
-                value={email}
-                placeholder="E-mail"
-                onChange={handleChange}
-              />
+                type="email" name="email" value={email} placeholder="E-mail" onChange={handleChange} />
             </div>
             <div className="input-group">
-              <textarea
-                name="message"
-                value={message}
-                placeholder="Your Message"
-                onChange={handleChange}
-              ></textarea>
+              <textarea name="message" value={message} placeholder="Your Message" onChange={handleChange}></textarea>
             </div>
             <button type="submit" className="btn-yellow">Send Message <i className="fa-regular fa-arrow-up-right"></i></button>
           </form>
