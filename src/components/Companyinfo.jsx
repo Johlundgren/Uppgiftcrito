@@ -1,6 +1,7 @@
 import React from 'react';
 import '@styles/_Companyinfo.scss'
 import companywoman from '@images/companywoman.png';
+import SectionTitle from './SectionTitle';
 
 const Companyinfo = () => {
   return (
@@ -20,10 +21,7 @@ const Companyinfo = () => {
         </div>
         <div className="secondcontainer">
             <section className="about-company">
-                <div className="section-title">
-                    <p>About Company</p>
-                    <h2>We Are Business<br />Consulting & Credit<br />Repair Experts</h2>
-                </div>
+            <SectionTitle title="About Company" description={<span>We Are Business<br />Consulting & Credit<br />Repair Experts</span>}/>
                 <div className="company-info">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam<br />officiis quas assumenda esse obcaecati? Ex esse error voluptates iure<br />vel totam eos.<br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis esse<br />quasi incidunt adipisci accusantium libero provident voluptate amet.</p>
                 </div>
