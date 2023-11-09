@@ -1,16 +1,14 @@
 import React from 'react';
-import '@styles/_Services.scss'
+import '@styles/_Services.scss';
 import ServiceBox from './ServiceBox';
+import SectionTitle from './SectionTitle';
 
 const Services = () => {
   return (
     <div className="service-section">
       <div className="container">
         <section className="service-rubrik">
-          <div className="section-title">
-            <p>Our Services</p>
-            <h2>We Provide The Best <br /> Service For Consulting</h2>
-          </div>
+        <SectionTitle title="Our Services" description={<span>We Provide The Best <br /> Service For Consulting</span>}/>
         </section>
         <section className="service-headlines">
           <ServiceBox title="Business Advice" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="" />
