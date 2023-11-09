@@ -16,22 +16,10 @@ const Projectandcase = () => {
         <div className="container">
             <SectionTitle title="Project & Case Studies" description="Let's Look At Our Global Projects" />
            <div className="project-and-cases">
-            <a className="project" href="#">
-                <img src={newspaper} alt="A mans hand reading business paper" />
-                <ProjectBox title="Grow your business" description="Read more" />
-            </a>
-            <a className="project" href="#">
-                <img src={smartwatch} alt="Pink smartwatch" />
-                <ProjectBox title="Why your client needs a responsive website" description="Read more" />
-            </a>
-            <a className="project" href="#">
-                <img src={penandpaper} alt="Desk with office supplies" />
-                <ProjectBox title="Educate your employees to get better results" description="Read more" />
-            </a>
-            <a className="project" href="#">
-                <img src={pctablet} alt="Laptop with business intelligence insight" />
-                <ProjectBox title="Business Insights is a important piece of your business" description="Read more" />
-            </a>
+                <ProjectBox imageSrc={newspaper} imageTitle="A mans hand reading business paper" title="Grow your business" description="Read more" />
+                <ProjectBox imageSrc={smartwatch} imageTitle="Pink smartwatch" title="Why your client needs a responsive website" description="Read more" />
+                <ProjectBox imageSrc={penandpaper} imageTitle="Desk with office supplies" title="Educate your employees to get better results" description="Read more" />
+                <ProjectBox imageSrc={pctablet} imageTitle="Laptop with business intelligence insight" title="Business Insights is a important piece of your business" description="Read more" />
            </div>
            <div className="center-content">
             <BtnBlack title="All Recent Projects" />

@@ -7,6 +7,7 @@ import Team04 from '@images/Team04.png';
 import SectionTitle from './SectionTitle';
 import Smallcircles from './Smallcircles';
 import BtnTrans from './BtnTrans';
+import Headshot from './Headshot';
 
 const Meetourteam = () => {
   return (
@@ -17,18 +18,10 @@ const Meetourteam = () => {
           <BtnTrans title="Browse Team" icon="fa-solid fa-arrow-up-right" />
         </section>
         <section className="meet-headshots">
-          <div className="headshots">
-            <img src={Team01} alt="Kristine Palmer" />
-          </div>
-          <div className="headshots">
-            <img src={Team02} alt="Mark Aubri" />
-          </div>
-          <div className="headshots">
-            <img src={Team03} alt="Kimberly Hansen" />
-          </div>
-          <div className="headshots">
-            <img src={Team04} alt="Justin Willoman" />
-          </div>
+          <Headshot imageSrc={Team01} name="Kristine Palmer" title="Chef Operation Officer" />
+          <Headshot imageSrc={Team02} name="Mark Aubri" title="Senior Consultant" />
+          <Headshot imageSrc={Team03} name="Kimberly Hansen" title="Senior Consultant" />
+          <Headshot imageSrc={Team04} name="Justin Willoman" title="Senior Tech Consultant" />
         </section>
         <div className="center-content">
             <Smallcircles icon="fa-duotone fa-circle-small" />
