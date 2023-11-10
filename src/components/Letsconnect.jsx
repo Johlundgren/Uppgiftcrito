@@ -3,16 +3,14 @@ import imageone from '@images/bg-lines-left.svg'
 import '@styles/_NewsHeader.scss'
 import { Link } from 'react-router-dom'; 
 
-const NewsHeader = ({url1, url2,description1, description2, title}) => {
+const Letsconnect = ({url1, url2, description1, description2, title}) => {
   return (
     <div className="background-box">
     <img className="background-lines-left" src={imageone} alt="Squiggly Lines" />
     <div className="container">
         <div className="menu">
-          <nav>
-             <Link to={url1}>{description1}</Link>
-             <Link to={url2}>{description2}</Link>
-          </nav>
+            <Link to={url1}>{description1}</Link>
+            <Link to={url2}>{description2}</Link>
         </div>
         <h4>{title}</h4>
 </div>
@@ -20,4 +18,4 @@ const NewsHeader = ({url1, url2,description1, description2, title}) => {
   )
 }
 
-export default NewsHeader
+export default Letsconnect
