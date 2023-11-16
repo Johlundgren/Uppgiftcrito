@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import NewsHeader from '@components/NewsHeader'
 import Footerlinks from '@components/Footerlinks'
 import Footer from '../components/Footer'
+import NewsArticles from '@components/NewsArticles'
 
 const News = () => {
   return (
