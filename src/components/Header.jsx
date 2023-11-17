@@ -35,6 +35,7 @@ const Header = () => {
                 <div className="menu">
                 <nav>
                   <NavLink to="/" exact="true" activeclassname="active">Home</NavLink>
+                  <a to="" activeclassname="active">Service</a>
                   <NavLink to="/News" activeclassname="active">News</NavLink>
                   <NavLink to="/contact" activeclassname="active">Contact</NavLink>
                </nav>

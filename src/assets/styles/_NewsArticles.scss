@@ -5,12 +5,15 @@
         font-size: 45px;
         font-weight: 700;
     }
+
     .newspic {
         width: 25%;
         margin: 3%;
         box-sizing: border-box;
         display: inline-block;
         vertical-align: top;
+
+        
     
         img {
             width: 100%;
@@ -22,11 +25,14 @@
             margin-top: 5px;
             font-size: 16px;
             font-weight: 300;
+            color: black;
+            
         }
     
         h3 {
             font-size: 22px;
             font-weight: 700;
+            color: black;
         }
     }
 }

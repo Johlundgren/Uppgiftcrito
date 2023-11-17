@@ -1,0 +1,30 @@
+.ArticleDetails {
+    .articleTitle {
+        h3 {
+            font-size: 42px;
+            font-weight: 700;
+            word-wrap: break-word;
+        }
+    }
+    .articleTexts {
+        display: flex;
+        gap: 40px;
+        margin-top: 20px;
+        .articleText {
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+    .articleImage {
+      img {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+      }  
+    }
+    .articleContent {
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 20px;
+    }
+}
