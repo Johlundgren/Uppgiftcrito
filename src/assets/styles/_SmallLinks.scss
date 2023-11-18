@@ -1,0 +1,21 @@
+.WorkLinksParent {
+display: flex;
+gap: 30px;
+    .WorkLinks {
+        background-color: rgba(128, 128, 128, 0.197);
+        border-radius: 16px;
+        width: 110px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        p {
+            font-weight: 300;
+            font-size: 14px;
+            margin-top: 7px;
+        }
+        &:hover {
+            background-color: #a2c2f0;
+            transition: background-color 0.3s ease;
+        }
+    }
+}
