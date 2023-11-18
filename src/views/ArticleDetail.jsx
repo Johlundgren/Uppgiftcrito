@@ -5,6 +5,7 @@ import Footerlinks from '../components/Footerlinks'
 import Footer from '../components/Footer'
 import { useParams } from 'react-router-dom'
 import '@styles/_ArticleDetail.scss'
+import LoremContent from '../components/LoremContent'
 
 const ArticleDetail = () => {
     const [article, setArticle] = useState({})
@@ -39,6 +40,7 @@ const ArticleDetail = () => {
         <div className="articleImage"><img src={article.imageUrl} alt={article.title} /></div>
         <div className="articleContent"><p>{article.content}</p></div>
     </div>
+    <LoremContent />
     <Footerlinks />
     <Footer />
     </>
